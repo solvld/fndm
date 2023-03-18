@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FNDM</title>
+  <title>FNDM - Page in English</title>
 
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+  <script src="lang.js" defer></script>
 </head>
 <body>
   <main>
@@ -15,14 +16,31 @@
     <video autoplay loop muted plays-inline class="back-video">
       <source src="./src/IMG_7993.mp4" type="video/mp4">
     </video>
+
+    <div id="popup" class="popup-form">
+      <div class="popup-container">
+        <h3 class="popup-title">info</h3>
+        <p class="popup-content">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis optio eum doloribus unde laudantium blanditiis asperiores fugiat facere voluptas.
+        </p>
+        <button class="close-btn">close [x]</button>
+      </div>
+    </div>
     
     <nav>
       <ul class="menu-ul">
-        <li class="menu-li"><a class="menu-link" href="#">info</a></li>
+        <li class="menu-li"><a id="info" class="menu-link" href="#">info</a></li>
         <li class="menu-li">|</li>
-        <li class="menu-li"><a class="menu-link" href="#">contact</a></li>
+        <li class="menu-li"><a id="contact" class="menu-link" href="#">contact</a></li>
       </ul>
+
+      <ul class="lang">
+        <li id="ru" class="lang-li">Ru</li>
+        <li id="en" class="lang-li">En</li>
+      </ul>
+
     </nav>
+
     <div class="content">
       <h1 class="main-title">
         FNDM

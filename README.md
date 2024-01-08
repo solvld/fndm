@@ -17,7 +17,7 @@ This repository contains a one-page website project that showcases the flow of a
 
 ## Demo
 
-Check out the live demo [**here**](https://nimble-biscotti-0691ce.netlify.app/)
+Check out the live demo [**here**](https://solvld.github.io/fndm/)
 
 ## Getting Started
 
